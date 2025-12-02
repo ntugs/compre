@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seu Action Figure Pessoal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f6fa;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .promo {
+      background: #25d366;
+      color: #fff;
+      padding: 15px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-align: center;
+    }
+    .promo span {
+      text-decoration: line-through;
+      opacity: .7;
+      margin-right: 10px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .section p {
+      font-size: 1.1rem;
+      opacity: .9;
+      margin-bottom: 40px;
+    }
+
+    .models {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: .3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+    .cta {
+      margin-top: 40px;
+    }
+    .cta a {
+      display: inline-block;
+      background: #25D366;
+      color: #fff;
+      padding: 18px 30px;
+      border-radius: 50px;
+      font-size: 1.3rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: #1da851;
+    }
+
+    /* exemplos */
+    #exemplos {
+      background: #fff;
+      padding: 60px 20px;
+      margin-top: 40px;
+    }
+    #exemplos h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    #exemplos p {
+      font-size: 1.1rem;
+      opacity: .9;
+      margin-bottom: 40px;
+    }
+    #exemplos .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.9rem; }
+      .cta a { font-size: 1.1rem; padding: 14px 22px; }
+      .promo { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Transforme Sua Identidade em um Action Figure Exclusivo</h1>
+    <p>O presente perfeito — único, memorável e totalmente personalizado.</p>
+  </header>
+
+  <div class="promo">
+    <span>R$ 149,90</span> AGORA por R$ 49,90 🔥 Oferta por tempo limitado!
+  </div>
+
+  <section class="section">
+    <h2>Escolha Seu Estilo</h2>
+    <p>Crie seu próprio Action Figure digital com acessórios, roupas e cenários que representam quem você é.</p>
+
+    <div class="models">
+      <div class="card">
+        <h3>🎸 Músico / Rocker</h3>
+        <p>Guitarra, pedestal de microfone, roupas pretas e vibe de palco.</p>
+      </div>
+
+      <div class="card">
+        <h3>💄 Make / Maquiadora</h3>
+        <p>Pincéis, lápis de maquiagem, paleta, iluminador e necessaire.</p>
+      </div>
+
+      <div class="card">
+        <h3>👨‍🍳 Chef</h3>
+        <p>Avental estiloso e utensílios de cozinha para quem faz arte com sabores.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a href="https://wa.me/5575983406849?text=Quero%20meu%20Action%20Figure%20Pessoal!" target="_blank">Quero Meu Action Figure Agora</a>
+    </div>
+  </section>
+
+  <section id="exemplos">
+    <h2>Exemplos de Action Figures Digitais</h2>
+    <p>Veja como suas caixas personalizadas podem ficar (Imagens meramente ilustrativas)</p>
+
+    <div class="grid">
+      <div>
+        <h3>Músico / Rocker</h3>
+        <img src="https://lh3.googleusercontent.com/d/17vvE5JRB22DVqVnQ-NZLUXFlzOD_x0Pk" alt="Action Figure Rocker" />
+      </div>
+
+      <div>
+        <h3>Make / Maquiadora</h3>
+        <img src="https://lh3.googleusercontent.com/d/1bZl4gva6Ad0yx03JlxFsw2XIhT_k_cV-" alt="Action Figure Make" />
+      </div>
+
+      <div>
+        <h3>Chef de Cozinha</h3>
+        <img src="https://lh3.googleusercontent.com/d/11p2LWT1Xl46eQREg5WNLDouyGzHZCdUh" alt="Action Figure Chef" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Seu Action Figure Pessoal — Todos os direitos reservados. - @jornadaparalela.ugs
+  </footer>
+
+</body>
+</html>
